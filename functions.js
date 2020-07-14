@@ -32,7 +32,7 @@ populate = function(){
     let citta =  $("#citta").val().replace(" ", "+");;
     $.ajax({
     type:'GET',
-    url:'http://api.openweathermap.org/data/2.5/weather?q=' + citta + '&appid=bd094daae439815755d3f411dff2762b',
+    url:'https://api.openweathermap.org/data/2.5/weather?q=' + citta + '&appid=bd094daae439815755d3f411dff2762b',
     success : function(Data){
         meteo = Data; 
         $("#general").text(meteo.weather[0].main);
