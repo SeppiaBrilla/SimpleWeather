@@ -1,0 +1,149 @@
+.general {
+    margin: auto;
+    width: 70%;
+    height: 96.5vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+.bg{
+  background-color: teal;
+}
+
+.form{
+  margin: 0 auto;
+  width: 90%;
+  padding: 1%;
+  justify-content: space-around;
+}
+
+#citta{
+
+  float: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-color: rgb(224, 222, 215);
+  width: 70%;
+  height: 2%;
+  padding: 1% 1%;
+  font-family:'Lato';
+  font-size: small;
+
+}
+
+#buttonID{
+  float: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: rgb(224, 222, 215);
+  background-color:teal;
+  width: 20%;
+  height: 2%;
+  cursor: pointer;
+}
+.search{
+  font-size: 100%;
+  color: white;
+}
+
+#meteo{
+  width: 95%;
+  margin: 30% auto;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Testo {
+  font-family:'Lato';
+  font-size: small;
+  width: 40%;
+  float: left;
+  word-wrap: break-word;
+}
+
+.Nome{
+  font-family:'Lato';
+  font-size: small;
+  width: 60%;
+  float: left;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 800px){
+
+  .form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 1%;
+    justify-content: space-around;
+  }
+  
+  #citta{
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(224, 222, 215);
+    width: 90%;
+    height: 7%;
+    padding: 1% 1%;
+    font-family:'Lato';
+    font-size: large;
+  
+  }
+  
+  #buttonID{
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:teal;
+    border-color: rgb(224, 222, 215);
+    width: 10%;
+    height: 7%;
+    cursor: pointer;
+  }
+  .search{
+    font-size: 200%;
+    color: white;
+  }
+
+  .Testo {
+    font-family:'Lato';
+    font-size: 150%;
+    width: 40%;
+    float: left;
+  }
+
+  .Nome{
+    font-family:'Lato';
+    font-size: 150%;
+    width: 60%;
+    float: left;
+    font-weight: bold;
+  }
+}
+
+.left{
+  text-align: left;
+}
+
+.right{
+  text-align: right;
+}
+
+.cold{
+  color: cornflowerblue;
+}
+
+.hot{
+  color: red;
+}
+
+.ok{
+  color: darkorange;
+}
+
+.errore{
+  background-color: rgb(227, 60, 34);
+}
